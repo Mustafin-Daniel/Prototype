@@ -1,0 +1,37 @@
+[
+  {
+    "rus_word": "Папа",
+    "eng_word": "Father",
+    "transcript": "Фавер"
+  },
+  {
+    "rus_word": "Мама",
+    "eng_word": "Mother",
+    "transcript": "Мавер"
+  },
+  {
+    "rus_word": "Брат",
+    "eng_word": "Brother",
+    "transcript": "Бравер"
+  },
+  {
+    "rus_word": "Сестра",
+    "eng_word": "Sister",
+    "transcript": "Систэр"
+  },
+  {
+    "rus_word": "Ребенок",
+    "eng_word": "Child",
+    "transcript": "Чайлд"
+  },
+  {
+    "rus_word": "Бабушка",
+    "eng_word": "Grandmother",
+    "transcript": "Грэндмавер"
+  },
+  {
+    "rus_word": "Дедушка",
+    "eng_word": "Grandfather",
+    "transcript": "Грэндмавер"
+  }
+]
