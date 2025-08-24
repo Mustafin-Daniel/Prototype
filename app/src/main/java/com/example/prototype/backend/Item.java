@@ -13,6 +13,18 @@ public class Item {
         this.eng_word = "Error"; this.rus_word = "Ошибка"; this.transcript = "Эррор";
     }
 
+    public String getEng_word() {
+        return eng_word;
+    }
+
+    public String getRus_word() {
+        return rus_word;
+    }
+
+    public String getTranscript() {
+        return transcript;
+    }
+
     public void setEng_word(String eng_word) {
         this.eng_word = eng_word;
     }
