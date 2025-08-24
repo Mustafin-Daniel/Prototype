@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
             throw new RuntimeException(e);
         }
         CardDisplay cardDisplay = new CardDisplay(itemList.get(0), this);
+
     }
 }

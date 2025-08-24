@@ -7,13 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include
-        layout="@layout/cardview"
-        android:id="@+id/myCardView1"
-        />
-    <include
-        layout="@layout/cardview"
-        android:id="@+id/myCardView2"
-        />
+
 
 </LinearLayout>
