@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Head -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+    
+    <!-- Body -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,160 Q100,120 150,160"/>
+    
+    <!-- Arms -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M70,100 L130,100"/>
+    
+    <!-- Legs -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,80 L100,120"/>
+    
+    <!-- Heart on chest -->
+    <path
+        android:fillColor="#FF69B4"
+        android:pathData="M100,110 Q110,100 120,110 Q110,120 100,110 Q90,120 80,110 Q90,100 100,110"/>
+</vector>
+

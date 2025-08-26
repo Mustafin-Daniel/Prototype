@@ -6,8 +6,6 @@ import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
 
-import com.example.prototype.DataManager;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,9 +19,6 @@ import java.util.Iterator;
 import java.util.List;
 
 public class CardReader {
-    private static DataManager instance;
-    private List<DataManager.Item> itemList;
-
     private Context context;
     public CardReader(Context context) {
         this.context = context;

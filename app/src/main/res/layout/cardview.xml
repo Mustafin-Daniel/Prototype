@@ -9,41 +9,47 @@
     android:layout_margin="8dp">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:padding="16dp"
         android:gravity="center_vertical">
+        
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical"
-            android:padding="16dp"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:layout_marginEnd="16dp">
 
             <TextView
                 android:id="@+id/englishWordTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="English Word"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textColor="@android:color/black"
-                android:paddingBottom="32sp"
-                android:textStyle="bold"/>
+                android:layout_marginBottom="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <TextView
                 android:id="@+id/russianWordTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="18dp"
                 android:text="Russian word"
-                android:textSize="18sp"
-                android:textColor="@android:color/black"/>
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
         </LinearLayout>
+        
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/glitch"/>
+            android:src="@drawable/glitch"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

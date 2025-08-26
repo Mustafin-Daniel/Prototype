@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Head -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+    
+    <!-- Body -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,160 Q100,120 150,160"/>
+    
+    <!-- Arms -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M70,100 L130,100"/>
+    
+    <!-- Legs -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,80 L100,120"/>
+    
+    <!-- Hair bow -->
+    <path
+        android:fillColor="#FF69B4"
+        android:pathData="M70,20 Q80,10 90,20 Q80,30 70,20"/>
+    <path
+        android:fillColor="#FF69B4"
+        android:pathData="M110,20 Q120,10 130,20 Q120,30 110,20"/>
+    
+    <!-- Bow center -->
+    <path
+        android:fillColor="#FF69B4"
+        android:pathData="M85,25 Q100,15 115,25 Q100,35 85,25"/>
+</vector>
+

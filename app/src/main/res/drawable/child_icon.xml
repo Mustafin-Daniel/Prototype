@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Head (larger for child) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,50m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0"/>
+    
+    <!-- Body (smaller for child) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,170 Q100,140 140,170"/>
+    
+    <!-- Arms -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M75,110 L125,110"/>
+    
+    <!-- Legs -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,85 L100,130"/>
+    
+    <!-- Big eyes -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M75,45 L95,45"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M105,45 L125,45"/>
+    
+    <!-- Cute smile -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80,65 Q100,80 120,65"/>
+</vector>
+

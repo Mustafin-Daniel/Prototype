@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Tab 1: Stories -->
+    <item
+        android:id="@+id/nav_empty1"
+        android:icon="@drawable/ic_stories"
+        android:title="Stories"/>
+    
+    <!-- Tab 2: Empty -->
+    <item
+        android:id="@+id/nav_empty2"
+        android:icon="@drawable/ic_empty"
+        android:title="Empty 2"/>
+    
+    <!-- Tab 3: Main (Empty) -->
+    <item
+        android:id="@+id/nav_main"
+        android:icon="@drawable/ic_home"
+        android:title="Main"/>
+    
+    <!-- Tab 4: Empty -->
+    <item
+        android:id="@+id/nav_empty3"
+        android:icon="@drawable/ic_empty"
+        android:title="Empty 3"/>
+    
+    <!-- Tab 5: Text and Card -->
+    <item
+        android:id="@+id/nav_text_card"
+        android:icon="@drawable/ic_text_card"
+        android:title="Text &amp; Card"/>
+        
+</menu>
